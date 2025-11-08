@@ -5,9 +5,9 @@ from gimpfu import *
 import os
 import subprocess
 
-# Path to your Python 3 interpreter and script
-PYTHON3 = r"C:/Program Files/Python310/python.exe"
-SCRIPT  = r"C:/Users/Generis/Desktop/remove_bg_bridge.py"
+# Path to your Python 3 interpreter and script - (C:/USERS/....)
+PYTHON3 = r"LOCATION OF PYTHON ON COMPUTER"
+SCRIPT  = r"LOCATION OF remove_bg_bridge.py on COMPUTER"
 
 def remove_bg(image, drawable):
     pdb.gimp_image_undo_group_start(image)
